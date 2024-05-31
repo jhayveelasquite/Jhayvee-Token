@@ -1,10 +1,10 @@
 # Jhayvee-Token
 
-Simple overview of use/purpose. Hello! The purpose of this code is to create a token on the etherum blokchain. It makes operations like minting the generation of new tokens and buring the destruction of old tokens much easier. This spacific token is called "Jhayve-Token" and its acronym is " MTJ". It keeps an eye on each address's balance as well as the overall supply.
+Simple overview of use/purpose. Hello! The purpose of this code is to create a token on the etherum blokchain. It makes operations like minting the generation of new tokens and buring the destruction of old tokens much easier. This spacific token is called "Jhayve-Token" and its acronym is "JT". It keeps an eye on each address's balance as well as the overall supply.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use. Essential token functionality on the Etherum network are provided by the Mytoken contract named "jhayvee-Token" (MTJ). It uses mappings to keep track of user balance and uses public variables to establish the token's name, abbreviation, and total supply.
+An in-depth paragraph about your project and overview of use. Essential token functionality on the Etherum network are provided by the Mytoken contract named "Jhayvee-Token" (JT). It uses mappings to keep track of user balance and uses public variables to establish the token's name, abbreviation, and total supply.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ In order to use this tool, you must comprehend and closely adhere to the given i
 code blocks for commands
   contract JhayveeToken {
     string public name = "Jhayvee-Token";
-    string public symbol = "MTJ";
+    string public symbol = "JT";
     uint256 public totalSupply;
 
     mapping(address => uint256) public balances;
