@@ -33,7 +33,7 @@ code blocks for commands
 pragma solidity ^0.8.0;
 
 contract SimpleToken {
-    string public name = "Jhayvee-token;
+    string public name = "Jhayvee-token";
     string public symbol =" JT";
     uint256 public totalSupply;
 
