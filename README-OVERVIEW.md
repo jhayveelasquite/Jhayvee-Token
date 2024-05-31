@@ -1,7 +1,9 @@
 # Jhayvee-Token
+
 Simple overview of use/purpose. Hello! The purpose of this code is to create a token on the etherum blokchain. It makes operations like minting the generation of new tokens and buring the destruction of old tokens much easier. This spacific token is called "Jhayve-Token" and its acronym is " MTJ". It keeps an eye on each address's balance as well as the overall supply.
 
-# Description
+## Description
+
 An in-depth paragraph about your project and overview of use. Essential token functionality on the Etherum network are provided by the Mytoken contract named "jhayvee-Token" (MTJ). It uses mappings to keep track of user balance and uses public variables to establish the token's name, abbreviation, and total supply.
 
 ## Getting Started
@@ -12,6 +14,7 @@ An in-depth paragraph about your project and overview of use. Essential token fu
 * Any modifications needed to be made to files/folders
 
 ### Executing program
+
 In order to use this tool, you must comprehend and closely adhere to the given instructions.
 • Make sure your smart contract is deployed on the blokchain network in the appropriate context.
 • You will find the following steps in your contact:
@@ -24,15 +27,11 @@ In order to use this tool, you must comprehend and closely adhere to the given i
   
   Set D: Using the burn function, choose addresses and start the token reduction process.
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-  ```
-  code blocks for command
-  contract SimpleToken {
-    string public name;
-    string public symbol;
+```
+code blocks for commands
+  contract JhayveeToken {
+    string public name = "Jhayvee-Token";
+    string public symbol = "MTJ";
     uint256 public totalSupply;
 
     mapping(address => uint256) public balances;
@@ -59,18 +58,31 @@ In order to use this tool, you must comprehend and closely adhere to the given i
 ```
 
 ## Help
-Any advise for common problems or issues.
-command to run if program contains helper info
 
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+Here are some pointers for dealing with typical issues.
+
+Make sure your permissions are correct if you are having trouble accessing your token.
+
+Verify your functions for potential misuse or minor details if there are mistakes occurring during the minting and burning of tokens.
+
+To prevent compilation and runtime issues in your smart contract, make sure your variables and data types are accurate.
+
+Be cautious in evaluating your conditions and assertions to avoid potential security and safety issues.
+
+If you're having trouble getting your smart contract to execute and function, just use debugging tools like Ganache to examine and verify the code you wrote and spot any possible flaws.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-  [NTC-S] Jhayvee C. Lasquite 
+ [NTC-S] Jhayvee C. Lasquite 
   422001114@ntc.edu.ph
+
 
 ## License
 
