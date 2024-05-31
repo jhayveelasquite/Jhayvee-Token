@@ -29,9 +29,12 @@ In order to use this tool, you must comprehend and closely adhere to the given i
 
 ```
 code blocks for commands
-  contract JhayveeToken {
-    string public name = "Jhayvee-Token";
-    string public symbol = "JT";
+ // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SimpleToken {
+    string public name = "Jhayvee-token;
+    string public symbol =" JT";
     uint256 public totalSupply;
 
     mapping(address => uint256) public balances;
